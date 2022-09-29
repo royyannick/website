@@ -12,14 +12,21 @@ Tasks related to new content.
 
 - [ ] Add NeuroTech Projects (info, pictures, code, etc.):
 
-  - [ ] Neuraldrift
   - [ ] Neureka Challenge
   - [ ] NeuroTechX
   - [ ] Student Clubs
+  - [ ] Migrate the whole <a href="https://yroy.me/tag/ift6266/">UdeM DL Course Blog post</a>
+  - [ ] Migrate the whole <a href="https://yroy.me/neuraldrift/">Neuraldrift Description and Pictures</a>
 
 - [ ] Add Misc Projects (info, pictures, code, etc.):
+
   - [ ] Website
   - [ ] Noos Montreal?
+
+- [ ] Add Public Speaking / Conferences / Interviews
+  - [ ] https://www.youtube.com/watch?v=wPNfVzi0gtc
+  - [ ] https://www.youtube.com/watch?v=tMfTPQAubKc
+  - [ ] https://www.youtube.com/watch?v=eD1_d9JV1wg
 
 ## UI/UX Improvements & Bugs
 

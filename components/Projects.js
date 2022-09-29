@@ -10,24 +10,31 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           <ProjectItem
             title="NeuroFunTrade"
-            backgroundImg={projectImgPlaceHolder}
+            backgroundImg="/../public/projects/neurofuntrade.png"
             projectUrl="/projects/blockchain/neurofuntrade"
             tech="Blockchain, NTF, Web3"
             year="2022"
           />
           <ProjectItem
             title="Crypto UI"
-            backgroundImg={projectImgPlaceHolder}
+            backgroundImg="/../public/projects/cryptoui.png"
             projectUrl="/projects/blockchain/crypto-ui"
             tech="Blockchain, Python, PyQt5"
             year="2022"
           />
           <ProjectItem
+            title="NeuroTechX"
+            backgroundImg="/../public/projects/neurotechx.png"
+            projectUrl="/projects/neurotech/neurotechx"
+            tech="NeuroTech, Community"
+            year="2015 - Present"
+          />
+          <ProjectItem
             title="DL-EEG Review"
-            backgroundImg={projectImgPlaceHolder}
+            backgroundImg="/../public/projects/dleegreview.png"
             projectUrl="/projects/neurotech/dl-eeg-review"
             tech="Deep Learning, EEG, Python"
             year="2019"
@@ -41,30 +48,44 @@ const Projects = () => {
           />
           <ProjectItem
             title="Neureka Challenge"
-            backgroundImg={projectImgPlaceHolder}
+            backgroundImg="/../public/projects/neureka.png"
             projectUrl="/projects/neurotech/neureka-challenge"
             tech="Deep Learning, EEG"
             year="2020"
           />
           <ProjectItem
             title="NeuralDrift"
-            backgroundImg={projectImgPlaceHolder}
+            backgroundImg="/../public/projects/neuraldrift.png"
             projectUrl="/projects/neurotech/neuraldrift"
             tech="EEG, Machine Learning, Python"
             year="2015"
           />
           <ProjectItem
             title="Deepfakes"
-            backgroundImg={projectImgPlaceHolder}
+            backgroundImg="/../public/projects/deepfakes.gif"
             projectUrl="/projects/deeplearning/deepfakes"
             tech="Deep Learning"
             year="2019"
           />
           <ProjectItem
             title="StaR"
-            backgroundImg={projectImgPlaceHolder}
+            backgroundImg="/../public/projects/star.png"
             projectUrl="/projects/neurotech/star-eeglab"
             tech="EEG, Matlab"
+            year="2015"
+          />
+          <ProjectItem
+            title="NeuroTech StudentClubs"
+            backgroundImg="/../public/projects/studentclubs.gif"
+            projectUrl="/projects/neurotech/student-clubs"
+            tech="NeuroTech, Community"
+            year="2015"
+          />
+          <ProjectItem
+            title="SynapsETS"
+            backgroundImg="/../public/projects/synapsets.png"
+            projectUrl="/projects/neurotech/synapsets"
+            tech="NeuroTech, Community"
             year="2015"
           />
         </div>

@@ -5,6 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { SiMedium } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -19,13 +20,15 @@ const Contact = () => {
           <div className="w-auto h-full col-span-2 p-4 shadow-xl lg:col-span-2 shadow-gray-400 rounded-xl">
             <div className="h-full lg:p-4">
               <div>
-                <Image
-                  className="duration-300 ease-in rounded-xl hover:scale-105"
-                  src="/../public/project1.jpg"
-                  width="350"
-                  height="350"
-                  alt="/"
-                />
+                <Link href="/publicspeaking">
+                  <Image
+                    className="duration-300 ease-in rounded-xl hover:scale-105"
+                    src="/../public/project1.jpg"
+                    width="350"
+                    height="350"
+                    alt="/"
+                  />
+                </Link>
               </div>
               <div>
                 <h2 className="py-2">Yannick Roy</h2>
@@ -41,10 +44,12 @@ const Contact = () => {
                   <FaGithub />
                 </div>
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-                  <AiOutlineMail />
+                  <Link href="https://medium.com/@_yroy_">
+                    <SiMedium />
+                  </Link>
                 </div>
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-                  <BsFillPersonLinesFill />
+                  <AiOutlineMail />
                 </div>
               </div>
             </div>

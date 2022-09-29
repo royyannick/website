@@ -48,7 +48,15 @@ const Navbar = () => {
       }
     >
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
-        <Image src="/../public/favicon.ico" alt="/" width="60" height="60" />
+        <Link href="/">
+          <Image
+            className="duration-300 ease-in cursor-pointer hover:scale-110"
+            src="/../public/favicon.ico"
+            alt="/"
+            width="60"
+            height="60"
+          />
+        </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/#home">

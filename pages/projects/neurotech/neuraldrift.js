@@ -28,6 +28,15 @@ const NeuralDrift = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>blablabla...</p>
+          <a href="https://www.youtube.com/watch?v=UH2LKSBgD7o">
+            Super Sayan 1
+          </a>
+          <a href="https://www.youtube.com/watch?v=dLvgMlT1gdQ">
+            Super Sayan 2
+          </a>
+          <a href="https://www.youtube.com/watch?v=GLmQpLJhFfE">
+            Super Sayan 3
+          </a>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           <button className="px-8 py-2 mt-4 mr-8">Code</button>
         </div>
