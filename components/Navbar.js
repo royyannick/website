@@ -111,7 +111,7 @@ const Navbar = () => {
           </div>
           <div className="my-4 border-b border-gray-300">
             <p className="w-[85%] md:w-[90%] py-4">
-              Let's make the future legendary together!
+              Let&apos;s make the future legendary together!
             </p>
           </div>
           <div className="flex flex-col py-4">
@@ -144,7 +144,7 @@ const Navbar = () => {
             </ul>
             <div className="py-20">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Let's Connect!
+                Let&apos;s Connect!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
