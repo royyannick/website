@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-import propertyImg from "../public/property.jpg";
+import projectImg from "../../../public/projects/project_placeholder_code.png";
 
 const Deepfakes = () => {
   return (
@@ -14,7 +14,7 @@ const Deepfakes = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={propertyImg}
+          src={projectImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%]  translate-y-[-50%] text-white z-10 p-2">
