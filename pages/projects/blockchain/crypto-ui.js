@@ -62,4 +62,4 @@ const CryptoUI = () => {
   );
 };
 
-export default Property;
+export default CryptoUI;
