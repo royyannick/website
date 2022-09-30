@@ -5,11 +5,9 @@ import projectImgPlaceHolder from "../public/projects/project_placeholder_code.p
 import projectImgNeurofuntrade from "../public/projects/neurofuntrade.png";
 import projectImgCrytpoUI from "../public/projects/cryptoui.png";
 import projectImgNeuroTechX from "../public/projects/neurotechx.png";
-import projectImgDLEEGReview from "../public/projects/dleegreview.png";
 import projectImgNeureka from "../public/projects/neureka.png";
 import projectImgNeuraldrift from "../public/projects/neuraldrift.png";
 import projectImgDeepfakes from "../public/projects/deepfakes.gif";
-import projectImgStar from "../public/projects/star.png";
 import projectImgSynapets from "../public/projects/synapsets.png";
 import projectImgWebsite from "../public/projects/website.png";
 import projectImgStudentClubs from "../public/projects/studentclubs.gif";
@@ -45,20 +43,6 @@ const Projects = () => {
             year="2015 - Present"
           />
           <ProjectItem
-            title="DL-EEG Review"
-            backgroundImg={projectImgDLEEGReview}
-            projectUrl="/projects/neurotech/dl-eeg-review"
-            tech="Deep Learning, EEG, Python"
-            year="2019"
-          />
-          <ProjectItem
-            title="CDA Review"
-            backgroundImg={projectImgPlaceHolder}
-            projectUrl="/projects/neurotech/cda-review"
-            tech="EEG, Python, CDA"
-            year="2022"
-          />
-          <ProjectItem
             title="Neureka Challenge"
             backgroundImg={projectImgNeureka}
             projectUrl="/projects/neurotech/neureka-challenge"
@@ -85,13 +69,6 @@ const Projects = () => {
             projectUrl="/projects/deeplearning/deepfakes"
             tech="Deep Learning"
             year="2019"
-          />
-          <ProjectItem
-            title="StaR"
-            backgroundImg={projectImgStar}
-            projectUrl="/projects/neurotech/star-eeglab"
-            tech="EEG, Matlab"
-            year="2015"
           />
           <ProjectItem
             title="NeuroTech StudentClubs"

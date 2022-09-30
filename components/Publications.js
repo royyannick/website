@@ -2,6 +2,9 @@ import React from "react";
 import PublicationItem from "./PublicationItem";
 import PublicationImgPlaceHolder from "../public/projects/project_placeholder_code.png";
 
+import publicationImgDLEEGReview from "../public/projects/dleegreview.png";
+import publicationImgStar from "../public/projects/star.png";
+
 const Publications = () => {
   return (
     <div id="publications" className="w-full">
@@ -13,24 +16,31 @@ const Publications = () => {
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           <PublicationItem
             title="DL-EEG Review"
-            backgroundImg={PublicationImgPlaceHolder}
-            projectUrl="/projects/blockchain/neurofuntrade"
-            tech="Blockchain, NTF, Web3"
-            year="2022"
+            backgroundImg={publicationImgDLEEGReview}
+            publicationUrl="/publications/dl-eeg-review"
+            keywords="Deep Learning, EEG, Review"
+            year="2019"
           />
           <PublicationItem
             title="CDA Review"
             backgroundImg={PublicationImgPlaceHolder}
-            projectUrl="/projects/blockchain/crypto-ui"
-            tech="Blockchain, Python, PyQt5"
+            publicationtUrl="/publications/cda-review"
+            keywords="CDA, EEG, Review"
             year="2022"
           />
           <PublicationItem
-            title="NeuroTechX"
+            title="EEG DL Scoring"
             backgroundImg={PublicationImgPlaceHolder}
-            projectUrl="/projects/neurotech/neurotechx"
-            tech="NeuroTech, Community"
-            year="2015 - Present"
+            publicationUrl="/publications/scoring"
+            keywords="Deep Learning, EEG, Scoring"
+            year="2020"
+          />
+          <PublicationItem
+            title="StaR (Statistical Framework)"
+            backgroundImg={publicationImgStar}
+            publicationUrl="/publications/star-eeglab"
+            keywords="Mixed-Models, R"
+            year="2016"
           />
         </div>
       </div>

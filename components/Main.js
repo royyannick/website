@@ -21,7 +21,7 @@ const Main = () => {
             <span className="text-[#5651e5]">Blockchain</span>
           </h1>
           <h2 className="py-4 text-gray-700">
-            Developer / Researcher / Manager / Enthusiast.
+            Developer / Researcher / Manager / Enthusiast
           </h2>
 
           <div className="py-4 text-gray-600 max-w-[70%] m-auto md:text-2xl">
