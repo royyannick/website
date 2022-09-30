@@ -14,7 +14,7 @@ export default function Home() {
           name="description"
           content="Yannick Roy's personal website. #Blockchain #NeuroTech"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={"/favicon.ico"} />
       </Head>
       <Main />
       <About />

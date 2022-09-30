@@ -51,7 +51,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="duration-300 ease-in cursor-pointer hover:scale-110"
-            src="/../public/favicon.ico"
+            src={"/../public/favicon.ico"}
             alt="/"
             width="60"
             height="60"
