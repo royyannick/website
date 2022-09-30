@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { SiMedium, SiFacebook, SiTwitter } from "react-icons/si";
 
 const Main = () => {
   return (
@@ -22,19 +23,42 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I code, I do science, I manage, I ...
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-              <FaLinkedinIn />
-            </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-              <FaGithub />
-            </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-              <AiOutlineMail />
-            </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-              <BsFillPersonLinesFill />
-            </div>
+          <div className="py-4 flex items-center justify-between sm:max-w-[60%] md:max-w-[50%] lg:max-w-[50%] sm:gap-2 lg:gap-4 m-auto">
+            <Link href="https://www.linkedin.com/in/yannick-roy-8aa5286/">
+              <a>
+                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <FaLinkedinIn className="duration-300 ease-in hover:scale-150" />
+                </div>
+              </a>
+            </Link>
+            <Link href="https://twitter.com/@_yroy_">
+              <a>
+                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <SiTwitter className="duration-300 ease-in hover:scale-150" />
+                </div>
+              </a>
+            </Link>
+            <Link href="https://github.com/royyannick">
+              <a>
+                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <FaGithub className="duration-300 ease-in hover:scale-150" />
+                </div>
+              </a>
+            </Link>
+            <Link href="https://medium.com/@_yroy_">
+              <a>
+                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <SiMedium className="duration-300 ease-in hover:scale-150" />
+                </div>
+              </a>
+            </Link>
+            <Link href="https://www.facebook.com/yannick.roy.35">
+              <a>
+                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <SiFacebook className="duration-300 ease-in hover:scale-150" />
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
       </div>

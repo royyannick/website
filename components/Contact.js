@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import { SiMedium } from "react-icons/si";
+import { SiMedium, SiFacebook, SiTwitter } from "react-icons/si";
+
+import contactImgYRSelfie from "../public/yroy/yr_selfie.jpeg";
 
 const Contact = () => {
   return (
@@ -18,38 +20,55 @@ const Contact = () => {
         <div className="grid gap-8 lg:grid-cols-5">
           {/* LEFT */}
           <div className="w-auto h-full col-span-2 p-4 shadow-xl lg:col-span-2 shadow-gray-400 rounded-xl">
-            <div className="h-full lg:p-4">
-              <div>
+            <div className="w-full h-full lg:p-4">
+              <div className="flex justify-center">
                 <Link href="/publicspeaking">
                   <Image
-                    className="duration-300 ease-in rounded-xl hover:scale-105"
-                    src="/../public/project1.jpg"
-                    width="350"
-                    height="350"
+                    className="duration-300 ease-in rounded-full hover:scale-105"
+                    src={contactImgYRSelfie}
+                    width="275"
+                    height="275"
                     alt="/"
                   />
                 </Link>
               </div>
               <div>
-                <h2 className="py-2">Yannick Roy</h2>
-                <p>NeuroTech and Blockchain Dev</p>
+                <h2 className="py-2 text-center">Yannick Roy</h2>
+                <p className="text-center">NeuroTech and Blockchain</p>
+                <p className="py-2 text-center">
+                  Developer / Manager / Researcher
+                </p>
                 <p className="py-4"></p>
               </div>
               <p className="pt-8 text-center uppercase">Connect With Me</p>
-              <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+              <div className="flex items-center justify-center gap-3 py-4 m-auto">
+                <Link href="https://www.linkedin.com/in/yannick-roy-8aa5286/">
+                  <a>
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                      <FaLinkedinIn className="duration-300 ease-in hover:scale-150" />
+                    </div>
+                  </a>
+                </Link>
+                <Link href="https://twitter.com/@_yroy_">
+                  <a>
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                      <SiTwitter className="duration-300 ease-in hover:scale-150" />
+                    </div>
+                  </a>
+                </Link>
+                <Link href="https://www.facebook.com/yannick.roy.35">
+                  <a>
+                    <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                      <SiFacebook className="duration-300 ease-in hover:scale-150" />
+                    </div>
+                  </a>
+                </Link>
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-                  <FaLinkedinIn />
-                </div>
-                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-                  <FaGithub />
-                </div>
-                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-                  <Link href="https://medium.com/@_yroy_">
-                    <SiMedium />
+                  <Link href="mailto:ymyannick+website@gmail.com">
+                    <a>
+                      <AiOutlineMail className="duration-300 ease-in hover:scale-150" />
+                    </a>
                   </Link>
-                </div>
-                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
-                  <AiOutlineMail />
                 </div>
               </div>
             </div>
