@@ -1,6 +1,17 @@
 import React from "react";
 import Image from "next/image";
 
+import skillImgC from "../public/skills/c.png";
+import skillImgCpp from "../public/skills/cpp.png";
+import skillImgPython from "../public/skills/python.png";
+import skillImgMatlab from "../public/skills/matlab.png";
+import skillImgR from "../public/skills/r.png";
+import skillImgJavascript from "../public/skills/javascript.png";
+import skillImgJupyter from "../public/skills/jupyter.png";
+import skillImgGithub from "../public/skills/github.png";
+import skillImgNextJS from "../public/skills/nextjs.png";
+import skillImgTailwind from "../public/skills/tailwind.png";
+
 const Skills = () => {
   return (
     <div id="skills" className="w-full p-2 lg:h-screen">
@@ -15,7 +26,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/python.png"
+                  src={skillImgPython}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -32,7 +43,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/c.png"
+                  src={skillImgC}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -49,7 +60,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/cpp.png"
+                  src={skillImgCpp}
                   width="64px"
                   height="64px"
                   alt="/"
