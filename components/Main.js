@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { AiOutlineMail } from "react-icons/ai";
+import Typewriter from "typewriter-effect";
+
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { SiMedium, SiFacebook, SiTwitter } from "react-icons/si";
 
@@ -21,7 +22,21 @@ const Main = () => {
           </h2>
 
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I code, I do science, I manage, I ...
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("I code, I do science, I manage, I ...")
+                  .callFunction(() => {
+                    console.log("String typed out!");
+                  })
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .callFunction(() => {
+                    console.log("All strings were deleted");
+                  })
+                  .start();
+              }}
+            />
           </p>
           <div className="py-4 flex items-center justify-between sm:max-w-[60%] md:max-w-[50%] lg:max-w-[50%] sm:gap-2 lg:gap-4 m-auto">
             <Link href="https://www.linkedin.com/in/yannick-roy-8aa5286/">

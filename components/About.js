@@ -21,6 +21,7 @@ const About = () => {
             “If the brain were so simple we could understand it, we would be so
             simple we couldn’t.” -Lyall Watson
           </p>
+
           <div>
             <button className="p-4 mt-4 text-gray-100">
               Download Short CV
