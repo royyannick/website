@@ -11,6 +11,7 @@ import projectImgNeuraldrift from "../public/projects/neuraldrift.png";
 import projectImgDeepfakes from "../public/projects/deepfakes.gif";
 import projectImgStar from "../public/projects/star.png";
 import projectImgSynapets from "../public/projects/synapsets.png";
+import projectImgWebsite from "../public/projects/website.png";
 import projectImgStudentClubs from "../public/projects/studentclubs.gif";
 
 const Projects = () => {
@@ -63,6 +64,13 @@ const Projects = () => {
             projectUrl="/projects/neurotech/neureka-challenge"
             tech="Deep Learning, EEG"
             year="2020"
+          />
+          <ProjectItem
+            title="Personal Website"
+            backgroundImg={projectImgWebsite}
+            projectUrl="/projects/neurotech/website"
+            tech="NextJS, Tailwind CSS"
+            year="2022"
           />
           <ProjectItem
             title="NeuralDrift"

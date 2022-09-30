@@ -41,6 +41,12 @@ Tasks related to new content.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Credits
+
+---
+
+The Awesome Programming Language Icons are coming from: https://icons8.com/icons/set/programming-language
+
 ---
 
 _Special thanks to Clint Briley (@fireclint) for his NextJS and TailwindCSS tutorials._

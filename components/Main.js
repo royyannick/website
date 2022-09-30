@@ -16,28 +16,35 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#5651e5]">Yannick</span>
           </h1>
-          <h1 className="py-2 text-gray-700">a NeuroTech and Blockchain</h1>
+          <h1 className="py-2 text-gray-700">
+            a <span className="text-[#5651e5]">NeuroTech</span> and{" "}
+            <span className="text-[#5651e5]">Blockchain</span>
+          </h1>
           <h2 className="py-4 text-gray-700">
-            Scientist / Developper / Manager / Enthusiast.
+            Developer / Researcher / Manager / Enthusiast.
           </h2>
 
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+          <div className="py-4 text-gray-600 max-w-[70%] m-auto md:text-2xl">
             <Typewriter
+              options={{
+                autoStart: true,
+                loop: true,
+              }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("I code, I do science, I manage, I ...")
-                  .callFunction(() => {
-                    console.log("String typed out!");
-                  })
-                  .pauseFor(2500)
+                  .typeString("I write code.")
+                  .pauseFor(500)
                   .deleteAll()
-                  .callFunction(() => {
-                    console.log("All strings were deleted");
-                  })
+                  .typeString("I do research.")
+                  .pauseFor(500)
+                  .deleteAll()
+                  .typeString("I manage teams.")
+                  .pauseFor(500)
+                  .deleteAll()
                   .start();
               }}
             />
-          </p>
+          </div>
           <div className="py-4 flex items-center justify-between sm:max-w-[60%] md:max-w-[50%] lg:max-w-[50%] sm:gap-2 lg:gap-4 m-auto">
             <Link href="https://www.linkedin.com/in/yannick-roy-8aa5286/">
               <a>

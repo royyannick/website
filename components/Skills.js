@@ -8,21 +8,21 @@ const Skills = () => {
         <p className="text-xl tracking widest uppercase text-[#5651e5]">
           Skills
         </p>
-        <h2 className="py-4">What I can Do</h2>
+        <h2 className="py-4">Tech Stack</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/html.png"
+                  src="/../public/skills/python.png"
                   width="64px"
                   height="64px"
                   alt="/"
                 ></Image>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
+                <h3>Python</h3>
               </div>
             </div>
           </div>
@@ -32,14 +32,82 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/css.png"
+                  src="/../public/skills/c.png"
                   width="64px"
                   height="64px"
                   alt="/"
                 ></Image>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
+                <h3>C</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src="/../public/skills/cpp.png"
+                  width="64px"
+                  height="64px"
+                  alt="/"
+                ></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>C++</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src="/../public/skills/matlab.png"
+                  width="64px"
+                  height="64px"
+                  alt="/"
+                ></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Matlab</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src="/../public/skills/r.png"
+                  width="64px"
+                  height="64px"
+                  alt="/"
+                ></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>R</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src="/../public/skills/solidity.png"
+                  width="64px"
+                  height="64px"
+                  alt="/"
+                ></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Solidity</h3>
               </div>
             </div>
           </div>
@@ -66,6 +134,23 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
+                  src="/../public/skills/nextjs.png"
+                  width="64px"
+                  height="64px"
+                  alt="/"
+                ></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>NextJS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
                   src="/../public/skills/react.png"
                   width="64px"
                   height="64px"
@@ -83,14 +168,14 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/github.png"
+                  src="/../public/skills/tailwind.png"
                   width="64px"
                   height="64px"
                   alt="/"
                 ></Image>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
+                <h3>Tailwind CSS</h3>
               </div>
             </div>
           </div>
@@ -100,14 +185,31 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/nextjs.png"
+                  src="/../public/skills/jupyter.png"
                   width="64px"
                   height="64px"
                   alt="/"
                 ></Image>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>NextJS</h3>
+                <h3>Jupyter</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src="/../public/skills/github.png"
+                  width="64px"
+                  height="64px"
+                  alt="/"
+                ></Image>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Github</h3>
               </div>
             </div>
           </div>

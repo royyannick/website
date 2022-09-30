@@ -77,7 +77,7 @@ const Contact = () => {
           {/* RIGHT */}
           <div className="w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lq:p-4">
             <div className="p-4">
-              <form>
+              <form method="POST" action="/success" data-netlify="true">
                 <div className="grid w-full gap-4 py-2 md:grid-cols-2">
                   <div className="flex flex-col">
                     <label className="py-2 text-sm uppercase">Name</label>
