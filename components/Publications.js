@@ -2,8 +2,8 @@ import React from "react";
 import PublicationItem from "./PublicationItem";
 import PublicationImgPlaceHolder from "../public/projects/project_placeholder_code.png";
 
-import publicationImgDLEEGReview from "../public/projects/dleegreview.png";
-import publicationImgStar from "../public/projects/star.png";
+import publicationImgDLEEGReview from "../public/publications/dleegreview.png";
+import publicationImgStar from "../public/publications/star.png";
 
 const Publications = () => {
   return (

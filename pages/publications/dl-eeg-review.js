@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-import projectImg from "../../../public/projects/project_placeholder_code.png";
+import projectImg from "../../public/projects/project_placeholder_code.png";
 
 const DLEEGReview = () => {
   return (
