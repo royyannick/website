@@ -91,16 +91,18 @@ const Contact = () => {
                     <input
                       className="flex p-3 border-2 border-gray-300 rounded-lg"
                       type="text"
+                      id="name"
                     ></input>
                   </div>
 
                   <div className="flex flex-col">
                     <label className="py-2 text-sm uppercase">
-                      Phone Number
+                      Phone Number (Optional)
                     </label>
                     <input
                       className="flex p-3 border-2 border-gray-300 rounded-lg"
                       type="text"
+                      id="phone"
                     ></input>
                   </div>
                 </div>
@@ -110,6 +112,7 @@ const Contact = () => {
                   <input
                     className="flex p-3 border-2 rounded-lg b order-gray-300"
                     type="email"
+                    id="email"
                   ></input>
                 </div>
 
@@ -118,6 +121,7 @@ const Contact = () => {
                   <input
                     className="flex p-3 border-2 rounded-lg b order-gray-300"
                     type="text"
+                    id="subject"
                   ></input>
                 </div>
 
@@ -126,10 +130,10 @@ const Contact = () => {
                   <textarea
                     className="flex p-3 border-2 rounded-lg b order-gray-300"
                     rows="10"
+                    id="message"
                   ></textarea>
                 </div>
-
-                <button className="w-full p-4 mt-4 text-gray-100">
+                <button type="submit" className="w-full p-4 mt-4 text-gray-100">
                   Send Message
                 </button>
               </form>

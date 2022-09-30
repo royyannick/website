@@ -19,7 +19,7 @@ const PublicationItem = ({
         alt="/"
       />
       <div>
-        <h3 className="text-white">{title}</h3>
+        <h3 className="p-2 text-white">{title}</h3>
         <p className="p-2 text-lg">Paper Title</p>
         <p className="p-2 ">Paper Authors</p>
         <p className="pt-2 pb-4 text-center text-white">({year})</p>

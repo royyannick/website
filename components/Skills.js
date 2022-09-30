@@ -151,7 +151,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/react.png"
+                  src={(require = "/../public/skills/react.png")}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -202,7 +202,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/github.png"
+                  src={(require = "/../public/skills/github.png")}
                   width="64px"
                   height="64px"
                   alt="/"
