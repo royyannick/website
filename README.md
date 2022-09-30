@@ -31,6 +31,7 @@ Tasks related to new content.
 ## UI/UX Improvements & Bugs
 
 - [ ] Projects -> Adjust "More Info" button size (currently sizes with Title width)
+- [ ] Projects -> Fix the router.asPath !== "/project" from Nav Bar (I need to manually add all the pages)
 
 ## General
 

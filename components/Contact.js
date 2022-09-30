@@ -23,13 +23,15 @@ const Contact = () => {
             <div className="w-full h-full lg:p-4">
               <div className="flex justify-center">
                 <Link href="/publicspeaking">
-                  <Image
-                    className="duration-300 ease-in rounded-full hover:scale-105"
-                    src={contactImgYRSelfie}
-                    width="275"
-                    height="275"
-                    alt="/"
-                  />
+                  <a>
+                    <Image
+                      className="duration-300 ease-in rounded-full hover:scale-105"
+                      src={contactImgYRSelfie}
+                      width="275"
+                      height="275"
+                      alt="/"
+                    />
+                  </a>
                 </Link>
               </div>
               <div>
@@ -132,9 +134,11 @@ const Contact = () => {
 
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-              <HiOutlineChevronDoubleUp className="text-[#5651e5]" />
-            </div>
+            <a>
+              <div className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+                <HiOutlineChevronDoubleUp className="text-[#5651e5]" />
+              </div>
+            </a>
           </Link>
         </div>
       </div>

@@ -13,9 +13,8 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
-  /*
   useEffect(() => {
-    if (router.asPath !== "/project" || router.asPath === "/project") {
+    if (router.asPath === "/property" || router.asPath === "/property") {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {
@@ -23,7 +22,6 @@ const Navbar = () => {
       setLinkColor("#1f2937");
     }
   }, [router]);
-  */
 
   const handleNav = () => {
     setNav(!nav);
@@ -51,15 +49,13 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <a>
-            <Image
-              className="duration-300 ease-in cursor-pointer hover:scale-110"
-              src="/../public/favicon.ico"
-              alt="/"
-              width="60"
-              height="60"
-            />
-          </a>
+          <Image
+            className="duration-300 ease-in cursor-pointer hover:scale-110"
+            src={"/../public/favicon.ico"}
+            alt="/"
+            width="60"
+            height="60"
+          />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -77,11 +73,12 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
+            {/*
             <Link href="/#publications">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Publications
               </li>
-            </Link>
+    </Link>*/}
             <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
@@ -145,11 +142,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/#publications">
+              {/*<Link href="/#publications">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Publications
                 </li>
-              </Link>
+        </Link>*/}
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact

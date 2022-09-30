@@ -16,6 +16,9 @@ const About = () => {
           <h2 className="py-4">Who I am</h2>
           <p className="py-2 text-gray-600">
             A NeuroTech Expert branching out into Blockchain.
+          </p>
+          <div>
+            {" "}
             <ul>
               <li>Brain-Computer Interfaces</li>
               <li>Cognitive Neurosience</li>
@@ -32,7 +35,7 @@ const About = () => {
             vision, experience and understanding of the field is what makes me
             very valuable to an organization (and obviously my extended network
             in the field).
-          </p>
+          </div>
           <p className="py-2 text-gray-600">
             I think we live in the best time in history. What a time to be
             alive! “If the brain were so simple we could understand it, we would

@@ -24,7 +24,7 @@ const Publications = () => {
           <PublicationItem
             title="CDA Review"
             backgroundImg={PublicationImgPlaceHolder}
-            publicationtUrl="/publications/cda-review"
+            publicationUrl="/publications/cda-review"
             keywords="CDA, EEG, Review"
             year="2022"
           />

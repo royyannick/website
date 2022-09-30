@@ -25,9 +25,11 @@ const PublicationItem = ({
         <p className="pt-2 pb-4 text-center text-white">{keywords}</p>
         <p className="pt-2 pb-4 text-center text-white">({year})</p>
         <Link href={publicationUrl}>
-          <p className="px-2 py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
-            More Info
-          </p>
+          <a>
+            <p className="px-2 py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
+              More Info
+            </p>
+          </a>
         </Link>
       </div>
     </div>
