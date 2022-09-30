@@ -8,8 +8,14 @@ const About = () => {
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#]">About</p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-600"> I do stuff.</p>
-          <p className="py-2 text-gray-600"> I do other stuff.</p>
+          <p className="py-2 text-gray-600">
+            A NeuroTech Expert branching out into Blockchain. I think we live in
+            the best time in history. What a time to be alive!
+          </p>
+          <p className="py-2 text-gray-600">
+            “If the brain were so simple we could understand it, we would be so
+            simple we couldn’t.” -Lyall Watson
+          </p>
         </div>
         <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
           <Image

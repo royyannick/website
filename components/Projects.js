@@ -2,16 +2,16 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import projectImgPlaceHolder from "../public/projects/project_placeholder_code.png";
 
-import projectImgNeurofuntrade from ("/../public/projects/neurofuntrade.png");
-import projectImgCrytpoUI from ("/../public/projects/cryptoui.png");
-import projectImgNeuroTechX from ("/../public/projects/neurotechx.png");
-import projectImgDLEEGReview from ("/../public/projects/dleegreview.png");
-import projectImgNeureka from ("/../public/projects/neureka.png");
-import projectImgNeuraldrift from ("/../public/projects/neuraldrift.png");
-import projectImgDeepfakes from "/projects/deeplearning/deepfakes";
-import projectImgStar from "/../public/projects/star.png";
-import projectImgSynapets from "/../public/projects/synapsets.png";
-import projectImgStudentClubs from "/../public/projects/studentclubs.gif";
+import projectImgNeurofuntrade from "../public/projects/neurofuntrade.png";
+import projectImgCrytpoUI from "../public/projects/cryptoui.png";
+import projectImgNeuroTechX from "../public/projects/neurotechx.png";
+import projectImgDLEEGReview from "../public/projects/dleegreview.png";
+import projectImgNeureka from "../public/projects/neureka.png";
+import projectImgNeuraldrift from "../public/projects/neuraldrift.png";
+import projectImgDeepfakes from "../public/projects/deepfakes.gif";
+import projectImgStar from "../public/projects/star.png";
+import projectImgSynapets from "../public/projects/synapsets.png";
+import projectImgStudentClubs from "../public/projects/studentclubs.gif";
 
 const Projects = () => {
   return (
