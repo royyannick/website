@@ -79,7 +79,12 @@ const Contact = () => {
           {/* RIGHT */}
           <div className="w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lq:p-4">
             <div className="p-4">
-              <form method="POST" action="/success" data-netlify="true">
+              <form
+                method="POST"
+                action="/success"
+                data-netlify="true"
+                name="contact-form"
+              >
                 <div className="grid w-full gap-4 py-2 md:grid-cols-2">
                   <div className="flex flex-col">
                     <label className="py-2 text-sm uppercase">Name</label>
@@ -128,6 +133,7 @@ const Contact = () => {
                   Send Message
                 </button>
               </form>
+              <input type="hidden" name="form-name" value="contact-form" />
             </div>
           </div>
         </div>

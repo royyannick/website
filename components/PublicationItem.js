@@ -10,20 +10,23 @@ const PublicationItem = ({
   year,
 }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+    <div className="relative flex justify-start h-auto w-full border-stone-700 rounded-xl group hover:bg-gradient-to-r from-[#bfbec8] to-[#a1afce] py-3">
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}
-        width="450"
-        height="375"
+        width="300"
+        height="225"
         alt="/"
       />
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl tracking-widest text-center text-white">
-          {title}
-        </h3>
-        <p className="pt-2 pb-4 text-center text-white">{keywords}</p>
+      <div>
+        <h3 className="text-white">{title}</h3>
+        <p className="p-2 text-lg">Paper Title</p>
+        <p className="p-2 ">Paper Authors</p>
         <p className="pt-2 pb-4 text-center text-white">({year})</p>
+        <p className="p-2">{keywords}</p>
+        <p className="p-4">Paper Description</p>
+      </div>
+      <div>
         <Link href={publicationUrl}>
           <a>
             <p className="px-2 py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
