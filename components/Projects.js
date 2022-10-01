@@ -14,8 +14,9 @@ import projectImgStudentClubs from "../public/projects/studentclubs.gif";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+    <div id="projects" className="w-full p-2 py-16">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+        {/*"max-w-[1240px] mx-auto px-2 py-16 lg:h-screen">*/}
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>

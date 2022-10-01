@@ -6,10 +6,10 @@ export default function PublicSpeaking() {
       <div>
         <h3 className="text-center">Form Submitted Successfully.</h3>
         <p className="py-2 text-center">I&apos;ll get back to you shortly!</p>
-        <div className="flex justify-center py-4">
+        <div className="flex justify-center py-8">
           <Link href="/">
             <a>
-              <button className="p-4">Back to Homepage</button>
+              <button className="px-3 py-2">Back to Homepage</button>
             </a>
           </Link>
         </div>

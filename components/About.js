@@ -3,49 +3,54 @@ import Image from "next/image";
 import Link from "next/link";
 
 import aboutImgYRMain from "../public/yroy/yr_main.png";
+import aboutImgYannickRoy from "../public/yannickroy.png";
+//import aboutPdfYRCV from "../public/YannickRoy2022-CV_short_neurotech.pdf";
 
 const About = () => {
   return (
-    <div
-      id="about"
-      className="flex items-center w-full p-2 top-5 bottom-5 md:h-screen"
-    >
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+    <div id="about" className="w-full p-2 py-10 lg:h-screen">
+      <div className="max-w-[1240px] m-auto grid grid-cols-3 place-items-center gap-8">
         <div className="col-span-2">
           <div>
-            <p className="uppercase text-xl tracking-widest text-[#]">About</p>
+            <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+              About
+            </p>
             <h2 className="py-4">Who I am</h2>
-            <p className="py-2 text-gray-600">
-              A NeuroTech Expert branching out into Blockchain.
+            <p className="py-2 text-xl text-gray-600">
+              A NeuroTech expert branching out into Blockchain.
             </p>
-            <div>
-              {" "}
-              <ul>
-                <li>Brain-Computer Interfaces</li>
-                <li>Cognitive Neurosience</li>
-                <li>Machine Learning</li>
-                <li>Machine Learning</li>
-                <li>Leadership and Team Management</li>
-                <li>Entrepreneurship</li>
-                <li>Public Speaking</li>
-                <li></li>
-              </ul>
-              Dedicated to the amazing field of Neurotechnology I am always
-              involved in all spheres around Neurotechnology, from science to
-              technology to education to business to the community. This 360
-              vision, experience and understanding of the field is what makes me
-              very valuable to an organization (and obviously my extended
-              network in the field).
-            </div>
-            <p className="py-2 text-gray-600">
+            <p className="py-2">
+              My expertise resides at the intersection of{" "}
+              <i>Brain-Computer Interfaces</i>, <i>Cognitive Neurosience</i>,{" "}
+              <i>Machine Learning</i>, <i>Deep Learning</i>, <i>Data Science</i>
+              , <i>Software Dev.</i>, <i>Research</i>, <i>Leadership</i>,{" "}
+              <i>Management</i>, <i>Entrepreneurship</i>, and{" "}
+              <i>Public Speaking</i>. More recently <i>Blockchain</i>,{" "}
+              <i>Smart Contracts</i>, <i>Ethereum</i>, and <i>Solidity</i>
+            </p>
+            <p className="py-2">
+              I'm best known for NeuroTechX - The International NeuroTechnology
+              Community that I started in 2015 and grew to the largest neurotech
+              community with chapters and activities all over the world. My most
+              cited paper (600+ citations) is my Deep Learning review paper for
+              EEG (brain activity).
+            </p>
+            <p className="py-2">
+              I’m product oriented and a firefighter. I can step up or step down
+              depending on the team and the needs. As opposed to most engineers,
+              I don&apos;t fall in love with the features. I remain
+              client-centered and product-obsessed. I want to know how it&apos;s
+              being used and what people have to say about it.
+            </p>
+            <p className="py-4 text-gray-600">
               I think we live in the best time in history. What a time to be
-              alive! “If the brain were so simple we could understand it, we
-              would be so simple we couldn’t.” -Lyall Watson
+              alive!
             </p>
+            <Image src={aboutImgYannickRoy} />
           </div>
         </div>
-        <div>
-          <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl cursor-pointer shadow-gray-400 rounded-xl hover:scale-105">
+        <div className=" place-items-center">
+          <div className="justify-center flex-auto w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl cursor-pointer shadow-gray-400 rounded-xl hover:scale-105">
             <Link href="/publicspeaking">
               <a>
                 <Image
@@ -59,10 +64,10 @@ const About = () => {
             </Link>
           </div>
           <div>
-            <Link href="">
-              <a>
+            <Link href="/YannickRoy2022-CV_short_neurotech.pdf">
+              <a target="_blank" rel="noopener noreferrer">
                 <button className="w-full p-5 mt-4 text-gray-100">
-                  Download Short CV
+                  Download Resume (CV)
                 </button>
               </a>
             </Link>

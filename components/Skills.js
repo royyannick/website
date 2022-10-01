@@ -6,15 +6,17 @@ import skillImgCpp from "../public/skills/cpp.png";
 import skillImgPython from "../public/skills/python.png";
 import skillImgMatlab from "../public/skills/matlab.png";
 import skillImgR from "../public/skills/r.png";
+import skillImgSolidity from "../public/skills/Solidity.png";
 import skillImgJavascript from "../public/skills/javascript.png";
 import skillImgJupyter from "../public/skills/jupyter.png";
 import skillImgGithub from "../public/skills/github.png";
 import skillImgNextJS from "../public/skills/nextjs.png";
+import skillImgReact from "../public/skills/react.png";
 import skillImgTailwind from "../public/skills/tailwind.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full p-2 lg:h-screen">
+    <div id="skills" className="w-full p-2 py-16">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking widest uppercase text-[#5651e5]">
           Skills
@@ -77,7 +79,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/matlab.png"
+                  src={skillImgMatlab}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -94,7 +96,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/r.png"
+                  src={skillImgR}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -111,7 +113,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/solidity.png"
+                  src={skillImgSolidity}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -128,7 +130,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/javascript.png"
+                  src={skillImgJavascript}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -145,7 +147,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/nextjs.png"
+                  src={skillImgNextJS}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -162,7 +164,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src={(require = "/../public/skills/react.png")}
+                  src={skillImgReact}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -179,7 +181,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/tailwind.png"
+                  src={skillImgTailwind}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -196,7 +198,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src="/../public/skills/jupyter.png"
+                  src={skillImgJupyter}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -213,7 +215,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   className="rounded-xl"
-                  src={(require = "/../public/skills/github.png")}
+                  src={skillImgGithub}
                   width="64px"
                   height="64px"
                   alt="/"

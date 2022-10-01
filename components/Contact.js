@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import axios from "axios";
+
+import { useForm } from "react-hook-form";
 
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -9,7 +12,25 @@ import { SiMedium, SiFacebook, SiTwitter } from "react-icons/si";
 
 import contactImgYRSelfie from "../public/yroy/yr_selfie.jpeg";
 
+function sendFormPipeDream(data) {
+  axios
+    .post("https://eozyu29kq6l6pbk.m.pipedream.net", data)
+    .then((response) => {
+      window.location.href = "/success";
+    })
+    .catch((e) => {
+      console.error(e);
+    });
+}
 const Contact = () => {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data, e) => {
+    document.getElementById("btnContactFormSubmit").disabled = true;
+    //console.log(data, e);
+    sendFormPipeDream(data);
+  };
+  const onError = (errors, e) => console.log(errors, e);
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -80,9 +101,10 @@ const Contact = () => {
           <div className="w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lq:p-4">
             <div className="p-4">
               <form
-                method="POST"
+                onSubmit={handleSubmit(onSubmit, onError)}
+                /*method="POST"
                 action="/success"
-                data-netlify="true"
+                data-netlify="true"*/
                 name="contact"
               >
                 <div className="grid w-full gap-4 py-2 md:grid-cols-2">
@@ -93,6 +115,7 @@ const Contact = () => {
                       type="text"
                       id="name"
                       name="name"
+                      {...register("name")}
                     ></input>
                   </div>
 
@@ -105,6 +128,7 @@ const Contact = () => {
                       type="text"
                       id="phone"
                       name="phone"
+                      {...register("phone")}
                     ></input>
                   </div>
                 </div>
@@ -116,6 +140,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
+                    {...register("email")}
                   ></input>
                 </div>
 
@@ -126,6 +151,7 @@ const Contact = () => {
                     type="text"
                     id="subject"
                     name="subject"
+                    {...register("subject")}
                   ></input>
                 </div>
 
@@ -136,10 +162,15 @@ const Contact = () => {
                     rows="10"
                     id="message"
                     name="message"
+                    {...register("message")}
                   ></textarea>
                 </div>
 
-                <button type="submit" className="w-full p-4 mt-4 text-gray-100">
+                <button
+                  type="submit"
+                  className="w-full p-4 mt-4 text-gray-100"
+                  id="btnContactFormSubmit"
+                >
                   Send Message
                 </button>
               </form>

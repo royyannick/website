@@ -23,6 +23,9 @@ export default function Home() {
       <Projects />
       <Publications />
       <Contact />
+
+      {/* Insert Quote: “If the brain were so simple we could understand it, we
+              would be so simple we couldn’t.” -Lyall Watson */}
     </div>
   );
 }

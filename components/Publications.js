@@ -7,8 +7,8 @@ import publicationImgStar from "../public/publications/star.png";
 
 const Publications = () => {
   return (
-    <div id="publications" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+    <div id="publications" className="w-full p-2 py-16">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Publications
         </p>

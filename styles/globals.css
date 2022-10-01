@@ -26,5 +26,13 @@
     button {
         @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
     }
-
+    
+    button [type='button'], [type='reset'], [type='submit'] {
+        @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    }
+    
+    button:disabled {
+        background: #F5F5F5;
+        color : #C3C3C3;
+    }
 }
