@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-import projectImgHeader from "../../../public/projects/deepfakes/deepfakes.png";
+import projectImgHeader from "../../../public/projects/deepfakes/deepfakes.gif";
 
 const Deepfakes = () => {
   return (
@@ -28,10 +28,10 @@ const Deepfakes = () => {
           <p>Deepfakes</p>
           <h2>Overview</h2>
           <p className="py-4">Description Coming Soon...</p>
-          <div></div>
+          {/*<div></div>
           <a href="https://youtu.be/m_mOUxFBLck">Yannick La Boeuf #JustDoIt</a>
           </div>
-          {/*<button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           <button className="px-8 py-2 mt-4 mr-8">Code</button>*/}
         </div>
         <div className="col-span-4 p-4 shadow-xl md:col-span-1 shadow-gray-400 rounded-xl">
