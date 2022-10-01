@@ -3,7 +3,12 @@ import Link from "next/link";
 import Typewriter from "typewriter-effect";
 
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { SiMedium, SiFacebook, SiTwitter } from "react-icons/si";
+import {
+  SiMedium,
+  SiFacebook,
+  SiTwitter,
+  SiGooglescholar,
+} from "react-icons/si";
 
 const Main = () => {
   return (
@@ -45,37 +50,45 @@ const Main = () => {
               }}
             />
           </div>
-          <div className="py-4 flex items-center justify-between sm:max-w-[60%] md:max-w-[50%] lg:max-w-[50%] sm:gap-2 lg:gap-4 m-auto">
+          <div className="py-4 flex items-center justify-between sm:max-w-[60%] md:max-w-[60%] lg:max-w-[60%] sm:gap-2 lg:gap-4 m-auto">
             <Link href="https://www.linkedin.com/in/yannick-roy-8aa5286/">
-              <a>
+              <a target="_blank">
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <FaLinkedinIn className="duration-300 ease-in hover:scale-150" />
                 </div>
               </a>
             </Link>
             <Link href="https://twitter.com/@_yroy_">
-              <a>
+              <a target="_blank">
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <SiTwitter className="duration-300 ease-in hover:scale-150" />
                 </div>
               </a>
             </Link>
             <Link href="https://github.com/royyannick">
-              <a>
+              <a target="_blank">
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <FaGithub className="duration-300 ease-in hover:scale-150" />
                 </div>
               </a>
             </Link>
+            <Link href="https://scholar.google.ca/citations?user=x5c5jRgAAAAJ">
+              <a target="_blank">
+                <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <SiGooglescholar className="duration-300 ease-in hover:scale-150" />
+                </div>
+              </a>
+            </Link>
+
             <Link href="https://medium.com/@_yroy_">
-              <a>
+              <a target="_blank">
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <SiMedium className="duration-300 ease-in hover:scale-150" />
                 </div>
               </a>
             </Link>
             <Link href="https://www.facebook.com/yannick.roy.35">
-              <a>
+              <a target="_blank">
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <SiFacebook className="duration-300 ease-in hover:scale-150" />
                 </div>

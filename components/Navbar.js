@@ -13,9 +13,8 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
-  /*
   useEffect(() => {
-    if (router.asPath !== "/project" || router.asPath === "/project") {
+    if (router.asPath.includes("/projects")) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {
@@ -23,7 +22,6 @@ const Navbar = () => {
       setLinkColor("#1f2937");
     }
   }, [router]);
-  */
 
   const handleNav = () => {
     setNav(!nav);
@@ -53,7 +51,7 @@ const Navbar = () => {
         <Link href="/">
           <a>
             <Image
-              className="duration-300 ease-in cursor-pointer hover:scale-110"
+              className="px-4 duration-300 ease-in cursor-pointer hover:scale-110"
               src="/../public/favicon.ico"
               alt="/"
               width="60"

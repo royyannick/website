@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-import projectImg from "../../../public/projects/project_placeholder_code.png";
+import projectImgHeader from "../../../public/projects/neuraldrift/neuraldrift.png";
 
 const NeuralDrift = () => {
   return (
@@ -14,21 +14,21 @@ const NeuralDrift = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={projectImg}
+          src={projectImgHeader}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%]  translate-y-[-50%] text-white z-10 p-2">
-          <h2>Project X</h2>
-          <h3>Tech1 / Tech2 / Tech3 </h3>
+          <h2>NeuralDrift</h2>
+          <h3>Hackathon project where you "mind-control" a small vehicle.</h3>
         </div>
       </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          <p>NeuralDrift</p>
           <h2>Overview</h2>
-          <p>blablabla...</p>
-          <a href="https://www.youtube.com/watch?v=UH2LKSBgD7o">
+          <p className="py-4">Description Coming Soon...</p>
+          {/*<a href="https://www.youtube.com/watch?v=UH2LKSBgD7o">
             Super Sayan 1
           </a>
           <a href="https://www.youtube.com/watch?v=dLvgMlT1gdQ">
@@ -36,7 +36,7 @@ const NeuralDrift = () => {
           </a>
           <a href="https://www.youtube.com/watch?v=GLmQpLJhFfE">
             Super Sayan 3
-          </a>
+          </a>*/}
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           <button className="px-8 py-2 mt-4 mr-8">Code</button>
         </div>
@@ -46,19 +46,23 @@ const NeuralDrift = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" />
-                Tech 1
+                Matlab
               </p>
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" />
-                Tech 2
+                EEG
               </p>
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" />
-                Tech 3
+                Machine Learning
               </p>
               <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" />
-                Tech 4
+                Muse (Headset)
+              </p>
+              <p className="flex items-center py-2 text-gray-600">
+                <RiRadioButtonFill className="pr-1" />
+                Lego Minstorm
               </p>
             </div>
           </div>

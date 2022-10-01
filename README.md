@@ -33,6 +33,7 @@ Tasks related to new content.
 - [ ] Projects -> Adjust "More Info" button size (currently sizes with Title width)
 - [ ] Projects -> Fix the router.asPath !== "/project" from Nav Bar (I need to manually add all the pages)
 - [ ] About -> When resizing smaller (medium size), the text is too big for the image, before the image goes below (1-col)
+- [ ] Publications -> When resizing small, make the image on top or abb. text. Title of papers are too long.
 
 ## General
 

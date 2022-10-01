@@ -2,15 +2,17 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import projectImgPlaceHolder from "../public/projects/project_placeholder_code.png";
 
-import projectImgNeurofuntrade from "../public/projects/neurofuntrade.png";
-import projectImgCrytpoUI from "../public/projects/cryptoui.png";
-import projectImgNeuroTechX from "../public/projects/neurotechx.png";
-import projectImgNeureka from "../public/projects/neureka.png";
-import projectImgNeuraldrift from "../public/projects/neuraldrift.png";
-import projectImgDeepfakes from "../public/projects/deepfakes.gif";
-import projectImgSynapets from "../public/projects/synapsets.png";
-import projectImgWebsite from "../public/projects/website.png";
-import projectImgStudentClubs from "../public/projects/studentclubs.gif";
+import projectImgNeurofuntrade from "../public/thumbnails/neurofuntrade.png";
+import projectImgCrytpoUI from "../public/thumbnails/cryptoui.png";
+import projectImgNeuroTechX from "../public/thumbnails/neurotechx.png";
+import projectImgNeureka from "../public/thumbnails/neureka.png";
+import projectImgNeuraldrift from "../public/thumbnails/neuraldrift.png";
+import projectImgDeepfakes from "../public/thumbnails/deepfakes.gif";
+import projectImgSynapets from "../public/thumbnails/synapsets.png";
+import projectImgWebsite from "../public/thumbnails/website.png";
+import projectImgDLEEGPortal from "../public/thumbnails/dleegportal.png";
+import projectImgStudentClubs from "../public/thumbnails/studentclubs.gif";
+import projectImgIFT6266 from "../public/thumbnails/ift6266.png";
 
 const Projects = () => {
   return (
@@ -37,11 +39,18 @@ const Projects = () => {
             year="2022"
           />
           <ProjectItem
-            title="NeuroTechX"
-            backgroundImg={projectImgNeuroTechX}
-            projectUrl="/projects/neurotech/neurotechx"
-            tech="NeuroTech, Community"
-            year="2015 - Present"
+            title="Personal Website"
+            backgroundImg={projectImgWebsite}
+            projectUrl="/projects/misc/website"
+            tech="NextJS, Tailwind CSS"
+            year="2022"
+          />
+          <ProjectItem
+            title="DL EEG Portal"
+            backgroundImg={projectImgDLEEGPortal}
+            projectUrl="/projects/neurotech/dl-eeg-portal"
+            tech="EEG, Deep Learning, Research"
+            year="2020"
           />
           <ProjectItem
             title="Neureka Challenge"
@@ -50,12 +59,20 @@ const Projects = () => {
             tech="Deep Learning, EEG"
             year="2020"
           />
+
           <ProjectItem
-            title="Personal Website"
-            backgroundImg={projectImgWebsite}
-            projectUrl="/projects/neurotech/website"
-            tech="NextJS, Tailwind CSS"
-            year="2022"
+            title="Deepfakes"
+            backgroundImg={projectImgDeepfakes}
+            projectUrl="/projects/deeplearning/deepfakes"
+            tech="Deep Learning"
+            year="2019"
+          />
+          <ProjectItem
+            title="IFT6266"
+            backgroundImg={projectImgIFT6266}
+            projectUrl="/projects/deeplearning/ift6266"
+            tech="Deep Learning"
+            year="2017"
           />
           <ProjectItem
             title="NeuralDrift"
@@ -65,11 +82,11 @@ const Projects = () => {
             year="2015"
           />
           <ProjectItem
-            title="Deepfakes"
-            backgroundImg={projectImgDeepfakes}
-            projectUrl="/projects/deeplearning/deepfakes"
-            tech="Deep Learning"
-            year="2019"
+            title="NeuroTechX"
+            backgroundImg={projectImgNeuroTechX}
+            projectUrl="/projects/neurotech/neurotechx"
+            tech="NeuroTech, Community"
+            year="2015 - Present"
           />
           <ProjectItem
             title="NeuroTech StudentClubs"
