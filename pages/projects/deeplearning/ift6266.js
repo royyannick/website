@@ -20,7 +20,7 @@ const IFT6266 = () => {
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%]  translate-y-[-50%] text-white z-10 p-2">
           <h2>IFT6266</h2>
           <h3>
-            Deep Learning Grad Course at U. of Montreal (Bengio/Courville's
+            Deep Learning Grad Course at U. of Montreal (Bengio/Courville&apos;s
             course)
           </h3>
         </div>
