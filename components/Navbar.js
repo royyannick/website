@@ -52,7 +52,7 @@ const Navbar = () => {
           <a>
             <Image
               className="px-4 duration-300 ease-in cursor-pointer hover:scale-110"
-              src="/../public/favicon.ico"
+              src="/favicon.ico"
               alt="/"
               width="60"
               height="60"
