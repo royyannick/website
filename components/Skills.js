@@ -6,7 +6,7 @@ import skillImgCpp from "../public/skills/cpp.png";
 import skillImgPython from "../public/skills/python.png";
 import skillImgMatlab from "../public/skills/matlab.png";
 import skillImgR from "../public/skills/r.png";
-import skillImgSolidity from "../public/skills/Solidity.png";
+import skillImgSolidity from "../public/skills/solidity.png";
 import skillImgJavascript from "../public/skills/javascript.png";
 import skillImgJupyter from "../public/skills/jupyter.png";
 import skillImgGithub from "../public/skills/github.png";
