@@ -20,10 +20,17 @@ const CryptoUI = () => {
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%]  translate-y-[-50%] text-white z-10 p-2">
           <h2>Crypto UI</h2>
           <h3>
-            UI to see a Wallet's Tokens and Token-related Transaction History.
+            UI to see a Wallet&apos;s Tokens and Token-related Transaction
+            History.
           </h3>
         </div>
       </div>
+
+      {/* Crypto UI – Pet project showing Crypto Assets, Transactions and Prices.
+
+Leveraging the blockchain Explorer APIs and CoinGeck API.
+
+Supporting Ethereum, Binance Smart Chain (BSC), Avalanche, Polygon, Cardano */}
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
@@ -31,7 +38,7 @@ const CryptoUI = () => {
           <h2>Overview</h2>
           <p className="py-4">Description Coming Soon...</p>
           <Link href="https://github.com/royyannick/CryptoUI">
-            <a target="_blank">
+            <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
           </Link>

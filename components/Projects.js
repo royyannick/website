@@ -13,6 +13,9 @@ import projectImgWebsite from "../public/thumbnails/website.png";
 import projectImgDLEEGPortal from "../public/thumbnails/dleegportal.png";
 import projectImgStudentClubs from "../public/thumbnails/studentclubs.gif";
 import projectImgIFT6266 from "../public/thumbnails/ift6266.png";
+import projectImgConnectivity from "../public/thumbnails/connectivity.png";
+import projectImgPhDClosedLoop from "../public/thumbnails/phdclosedloop.png";
+import projectImgBrainfighta from "../public/thumbnails/brainfighta.png";
 
 const Projects = () => {
   return (
@@ -46,6 +49,13 @@ const Projects = () => {
             year="2022"
           />
           <ProjectItem
+            title="BCI and Closed Loop Systems"
+            backgroundImg={projectImgPhDClosedLoop}
+            projectUrl="/projects/neurotech/closed-loop"
+            tech="EEG, BCI, Machine Learning, Python"
+            year="2022"
+          />
+          <ProjectItem
             title="DL EEG Portal"
             backgroundImg={projectImgDLEEGPortal}
             projectUrl="/projects/neurotech/dl-eeg-portal"
@@ -73,6 +83,20 @@ const Projects = () => {
             projectUrl="/projects/deeplearning/ift6266"
             tech="Deep Learning"
             year="2017"
+          />
+          <ProjectItem
+            title="Brain Connectivity"
+            backgroundImg={projectImgConnectivity}
+            projectUrl="/projects/neurotech/connectivity"
+            tech="EEG, SIFT, EEGLAB, mTBI, Connectivity"
+            year="2016"
+          />
+          <ProjectItem
+            title="BrainFighta"
+            backgroundImg={projectImgBrainfighta}
+            projectUrl="/projects/neurotech/brainfighta"
+            tech="EEG, Machine Learning, Python, Unity"
+            year="2016"
           />
           <ProjectItem
             title="NeuralDrift"

@@ -30,7 +30,7 @@ const DLEEGPortal = () => {
           <p className="py-4">Description Coming Soon...</p>
           {/*<Image src={projectImgHeader} />*/}
           <Link href="https://dl-eeg.com/">
-            <a target="_blank">
+            <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 mr-8">Website</button>
             </a>
           </Link>

@@ -24,9 +24,12 @@ Tasks related to new content.
   - [ ] Noos Montreal?
 
 - [ ] Add Public Speaking / Conferences / Interviews
+
   - [ ] https://www.youtube.com/watch?v=wPNfVzi0gtc
   - [ ] https://www.youtube.com/watch?v=tMfTPQAubKc
   - [ ] https://www.youtube.com/watch?v=eD1_d9JV1wg
+
+- [ ] Add page with Travels and Books (like previous site [see here]())
 
 ## UI/UX Improvements & Bugs
 

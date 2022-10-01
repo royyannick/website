@@ -29,7 +29,7 @@ const WebsitePerso = () => {
           <h2>Overview</h2>
           <p className="py-4">
             Do I really have to explain this website? Just click on buttons and
-            you'll figure it out.
+            you&apos;ll figure it out.
           </p>
           <Link href="https://github.com/royyannick/website">
             <a>

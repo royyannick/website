@@ -29,16 +29,16 @@ const About = () => {
               <i>Smart Contracts</i>, <i>Ethereum</i>, and <i>Solidity</i>
             </p>
             <p className="py-2">
-              I'm best known for NeuroTechX - The International NeuroTechnology
-              Community that I started in 2015 and grew to the largest neurotech
-              community with chapters and activities all over the world. My most
-              cited paper (600+ citations) is my Deep Learning review paper for
-              EEG (brain activity).
+              I&apos;m best known for NeuroTechX - The International
+              NeuroTechnology Community that I started in 2015 and grew to the
+              largest neurotech community with chapters and activities all over
+              the world. My most cited paper (600+ citations) is my Deep
+              Learning review paper for EEG (brain activity).
             </p>
             <p className="py-2">
-              I’m product oriented and a firefighter. I can step up or step down
-              depending on the team and the needs. As opposed to most engineers,
-              I don&apos;t fall in love with the features. I remain
+              I&apos;m product oriented and a firefighter. I can step up or step
+              down depending on the team and the needs. As opposed to most
+              engineers, I don&apos;t fall in love with the features. I remain
               client-centered and product-obsessed. I want to know how it&apos;s
               being used and what people have to say about it.
             </p>

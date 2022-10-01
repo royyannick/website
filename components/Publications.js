@@ -114,6 +114,7 @@ const Publications = () => {
               <a
                 href="https://scholar.google.com/citations?user=x5c5jRgAAAAJ"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-[#5651e5]"
               >
                 Google Scholar
@@ -122,6 +123,7 @@ const Publications = () => {
               <a
                 href="https://www.researchgate.net/profile/Yannick-Roy-2"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-[#5651e5]"
               >
                 Research Gate

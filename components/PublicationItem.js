@@ -12,7 +12,7 @@ const PublicationItem = ({
 }) => {
   return (
     <Link href={publicationUrl}>
-      <a target="_blank">
+      <a target="_blank" rel="noopener noreferrer">
         <div className="relative flex justify-start h-auto w-full border-stone-700 rounded-xl group hover:bg-gradient-to-r from-[#bfbec8] to-[#a1afce] py-4">
           <div className="w-[20%] h-[180px] flex flex-auto items-center">
             <Image
