@@ -4,18 +4,18 @@ import projectImgPlaceHolder from "../public/projects/project_placeholder_code.p
 
 import projectImgNeurofuntrade from "../public/thumbnails/neurofuntrade.png";
 import projectImgCrytpoUI from "../public/thumbnails/cryptoui.png";
-import projectImgNeuroTechX from "../public/thumbnails/neurotechx.png";
-import projectImgNeureka from "../public/thumbnails/neureka.png";
-import projectImgNeuraldrift from "../public/thumbnails/neuraldrift.png";
+import projectImgNeuroTechX from "../public/thumbnails/neurotechx.jpg";
+import projectImgNeureka from "../public/thumbnails/neureka.jpg";
+import projectImgNeuraldrift from "../public/thumbnails/neuraldrift.jpg";
 import projectImgDeepfakes from "../public/thumbnails/deepfakes.gif";
-import projectImgSynapets from "../public/thumbnails/synapsets.png";
+import projectImgSynapets from "../public/thumbnails/synapsets.jpg";
 import projectImgWebsite from "../public/thumbnails/website.png";
-import projectImgDLEEGPortal from "../public/thumbnails/dleegportal.png";
+import projectImgDLEEGPortal from "../public/thumbnails/dleegportal.jpg";
 import projectImgStudentClubs from "../public/thumbnails/studentclubs.gif";
-import projectImgIFT6266 from "../public/thumbnails/ift6266.png";
-import projectImgConnectivity from "../public/thumbnails/connectivity.png";
-import projectImgPhDClosedLoop from "../public/thumbnails/phdclosedloop.png";
-import projectImgBrainfighta from "../public/thumbnails/brainfighta.png";
+import projectImgIFT6266 from "../public/thumbnails/ift6266.jpg";
+import projectImgConnectivity from "../public/thumbnails/connectivity.jpg";
+import projectImgPhDClosedLoop from "../public/thumbnails/phdclosedloop.jpg";
+import projectImgBrainfighta from "../public/thumbnails/brainfighta.jpg";
 
 const Projects = () => {
   return (
@@ -49,7 +49,7 @@ const Projects = () => {
             year="2022"
           />
           <ProjectItem
-            title="BCI and Closed Loop Systems"
+            title="Closed-Loop Systems"
             backgroundImg={projectImgPhDClosedLoop}
             projectUrl="/projects/neurotech/closed-loop"
             tech="EEG, BCI, Machine Learning, Python"

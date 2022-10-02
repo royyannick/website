@@ -34,9 +34,14 @@ Tasks related to new content.
 ## UI/UX Improvements & Bugs
 
 - [ ] Projects -> Adjust "More Info" button size (currently sizes with Title width)
-- [ ] Projects -> Fix the router.asPath !== "/project" from Nav Bar (I need to manually add all the pages)
-- [ ] About -> When resizing smaller (medium size), the text is too big for the image, before the image goes below (1-col)
-- [ ] Publications -> When resizing small, make the image on top or abb. text. Title of papers are too long.
+- [x] Projects -> Fix the router.asPath !== "/project" from Nav Bar (I need to manually add all the pages)
+- [ ] Projects -> Fix Nav Bar if scrolling... (or it overlays over the page)
+- [x] About -> When resizing smaller (medium size), the text is too big for the image, before the image goes below (1-col)
+- [x] Skills -> Remove text when mobile, make them very small and columns.
+- [x] Contact Me center the first (left section on mobile)
+- [ ] Side Menu -> Fix for Mobile / Small Version.
+  - [ ] First paragraph/text too big.
+  - [ ] Bottom icons too big.
 
 ## General
 

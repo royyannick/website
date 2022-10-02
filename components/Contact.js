@@ -38,9 +38,9 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="grid gap-8 lg:grid-cols-5">
+        <div className="grid items-center gap-8 md:grid-cols-5">
           {/* LEFT */}
-          <div className="w-auto h-full col-span-2 p-4 shadow-xl lg:col-span-2 shadow-gray-400 rounded-xl">
+          <div className="h-full p-4 shadow-xl md:col-span-2 shadow-gray-400 rounded-xl">
             <div className="w-full h-full lg:p-4">
               <div className="flex justify-center">
                 <Link href="/publicspeaking">
@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
 
           {/* RIGHT */}
-          <div className="w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lq:p-4">
+          <div className="w-full h-auto shadow-xl md:col-span-3 shadow-gray-400 rounded-xl lq:p-4">
             <div className="p-4">
               <form
                 onSubmit={handleSubmit(onSubmit, onError)}

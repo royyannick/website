@@ -40,8 +40,7 @@ const Publications = () => {
 
           <PublicationItem
             title="Significant changes in EEG neural oscillations during different
-            phases of three-dimensional multiple object tracking task
-            (3D-MOT) imply different roles for attention and working
+            phases of 3D-MOT task imply different roles for attention and working
             memory."
             backgroundImg={publicationImg3DMOTEEG}
             publicationUrl="https://arxiv.org/abs/2207.14470"

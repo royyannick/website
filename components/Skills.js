@@ -22,7 +22,7 @@ const Skills = () => {
           Skills
         </p>
         <h2 className="py-4">Tech Stack</h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
@@ -34,7 +34,8 @@ const Skills = () => {
                   alt="/"
                 ></Image>
               </div>
-              <div className="flex flex-col items-center justify-center">
+              {/* hidden md:block */}
+              <div className="flex flex-col items-center justify-center ">
                 <h3>Python</h3>
               </div>
             </div>

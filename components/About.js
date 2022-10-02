@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div id="about" className="w-full p-2 py-10 lg:h-screen">
       <div className="max-w-[1240px] m-auto grid grid-cols-3 place-items-center gap-8">
-        <div className="col-span-2">
+        <div className="col-span-3 md:col-span-2">
           <div>
             <p className="uppercase text-xl tracking-widest text-[#5651e5]">
               About
@@ -29,18 +29,16 @@ const About = () => {
               <i>Smart Contracts</i>, <i>Ethereum</i>, and <i>Solidity</i>
             </p>
             <p className="py-2">
-              I&apos;m best known for NeuroTechX - The International
-              NeuroTechnology Community that I started in 2015 and grew to the
-              largest neurotech community with chapters and activities all over
-              the world. My most cited paper (600+ citations) is my Deep
-              Learning review paper for EEG (brain activity).
+              I&apos;m best known for (1) NeuroTechX that I started in 2015 and
+              grew to the largest neurotech community with chapters and
+              activities all over the world and (2) my Deep Learning review
+              paper for EEG (600+ citations).
             </p>
             <p className="py-2">
-              I&apos;m product oriented and a firefighter. I can step up or step
-              down depending on the team and the needs. As opposed to most
-              engineers, I don&apos;t fall in love with the features. I remain
-              client-centered and product-obsessed. I want to know how it&apos;s
-              being used and what people have to say about it.
+              As opposed to most engineers, I don&apos;t fall in love with the
+              features I&apos;m building. I remain client-centered and
+              product-obsessed. I want to know how it&apos;s being used and what
+              people have to say about it.
             </p>
             <p className="py-4 text-gray-600">
               I think we live in the best time in history. What a time to be
@@ -49,7 +47,7 @@ const About = () => {
             <Image src={aboutImgYannickRoy} />
           </div>
         </div>
-        <div className=" place-items-center">
+        <div className="col-span-3 md:col-span-1 place-items-center">
           <div className="justify-center flex-auto w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl cursor-pointer shadow-gray-400 rounded-xl hover:scale-105">
             <Link href="/publicspeaking">
               <a>
