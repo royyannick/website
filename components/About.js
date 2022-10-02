@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import aboutImgYRMain from "../public/yroy/yr_main.png";
-import aboutImgYannickRoy from "../public/yannickroy.png";
+import aboutImgYRMain from "../public/yroy/yr_main.jpeg";
+import aboutImgYannickRoy from "../public/yroy/yannickroy.png";
 //import aboutPdfYRCV from "../public/YannickRoy2022-CV_short_neurotech.pdf";
 
 const About = () => {
@@ -29,10 +29,24 @@ const About = () => {
               <i>Smart Contracts</i>, <i>Ethereum</i>, and <i>Solidity</i>
             </p>
             <p className="py-2">
-              I&apos;m best known for (1) NeuroTechX that I started in 2015 and
-              grew to the largest neurotech community with chapters and
-              activities all over the world and (2) my Deep Learning review
-              paper for EEG (600+ citations).
+              I&apos;m best known for (1){" "}
+              <a
+                href="https://neurotechx.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                NeuroTechX
+              </a>
+              that I started in 2015 and grew to the largest neurotech community
+              with chapters and activities all over the world and (2) my{" "}
+              <a
+                href="https://iopscience.iop.org/article/10.1088/1741-2552/ab260c"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deep Learning review paper for EEG
+              </a>{" "}
+              (600+ citations).
             </p>
             <p className="py-2">
               As opposed to most engineers, I don&apos;t fall in love with the
