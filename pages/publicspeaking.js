@@ -23,6 +23,13 @@ export default function PublicSpeaking() {
       <hr />
       <div className="divide-solid">
         <ul>
+          {/*}
+            [Podcast] [Creating a neurotech community](https://neuralimplantpodcast.com/yannick-roy-on-creating-a-neurotech-community-with-over-6000-members).
+
+            [Panel BCI Samara - Neuralink]
+
+            [Louis T. Veut tout savoir - Transhumanism](https://savoir.media/louis-t-veut-savoir/clip/transhumanisme)
+        */}
           <li className="p-4 text-gray-600">
             <a href="https://ici.tou.tv/comment-devenir-une-personne-parfaite/S01E01">
               [TV] – Véro.TV – Comment devenir une personne parfaite

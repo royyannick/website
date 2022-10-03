@@ -98,17 +98,12 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[35%] h-screen bg-[#ecf0f3] p-10 ease-in duration=500"
+              ? "fixed left-0 top-0 w-[45%] md:w-[35%] lg:w-[30%] h-screen bg-[#ecf0f3] p-5 ease-in duration=500"
               : "fixed left-[100%] top-0 p-10 ease-in duration=500"
           }
         >
           <div className="flex items-center justify-between w-full">
-            <Image
-              src="/../public/favicon.ico"
-              width="45"
-              height="45"
-              alt="/"
-            ></Image>
+            <Image src="/favicon.ico" width="45" height="45" alt="/"></Image>
             <div
               onClick={handleNav}
               className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
@@ -117,8 +112,8 @@ const Navbar = () => {
             </div>
           </div>
           <div className="my-4 border-b border-gray-300">
-            <p className="w-[85%] md:w-[90%] py-4">
-              Let&apos;s make the future legendary together!
+            <p className="w-[90%] md:w-[90%] py-4">
+              Shaping the future together!
             </p>
           </div>
           <div className="flex flex-col py-4">
@@ -158,13 +153,14 @@ const Navbar = () => {
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let&apos;s Connect!
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="grid place-items-center grid-cols-2 grid-rows-2 md:grid-cols-4 grid-rows-1 gap-4 my-4 w-full sm:w-[80%]">
                 <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <FaLinkedinIn />
                 </div>
                 <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <FaGithub />
                 </div>
+
                 <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <AiOutlineMail />
                 </div>
