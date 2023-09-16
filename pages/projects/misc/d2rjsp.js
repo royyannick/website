@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 
 import projectImgHeader from "../../../public/projects/d2rjsp/D2RJSP.png";
 
-const WebsitePerso = () => {
+const D2RJSP = () => {
     return (
         <div className="w-full">
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -65,4 +65,4 @@ const WebsitePerso = () => {
     );
 };
 
-export default WebsitePerso;
+export default D2RJSP;
