@@ -4,7 +4,7 @@ import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 import projectImgHeader from "../../../public/projects/d2rjsp/D2RJSP.png";
-import projectVideo from "../../../public/projects/d2rjsp/D2RJSP_Runes.mp4"
+import projectVideo from "../../../public/projects/d2rjsp/D2RJSP_Runes.mp4";
 
 const D2RJSP = () => {
     return (
@@ -34,7 +34,7 @@ const D2RJSP = () => {
                         The objective is to then use such insight to maximize my flash farming during the first hours of a ladder reset. (#TotalNerd)
                     </p>
                     <div>
-                        <video>
+                        <video width="750" height="500" controls>
                             <source src={projectVideo} type="video/mp4" />
                         </video>
                     </div>
