@@ -4,7 +4,6 @@ import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 import projectImgHeader from "../../../public/projects/d2rjsp/D2RJSP.png";
-import projectVideo from "../../../public/projects/d2rjsp/D2RJSP_Runes.mp4";
 
 const D2RJSP = () => {
     return (
