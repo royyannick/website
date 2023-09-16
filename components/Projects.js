@@ -2,6 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import projectImgPlaceHolder from "../public/projects/project_placeholder_code.png";
 
+import projectImgD2Rjsp from "../public/thumbnails/d2rjsp.png";
 import projectImgNeurofuntrade from "../public/thumbnails/neurofuntrade.png";
 import projectImgCrytpoUI from "../public/thumbnails/cryptoui.png";
 import projectImgNeuroTechX from "../public/thumbnails/neurotechx.jpg";
@@ -40,6 +41,13 @@ const Projects = () => {
             projectUrl="/projects/blockchain/crypto-ui"
             tech="Blockchain, Python, PyQt5"
             year="2022"
+          />
+          <ProjectItem
+            title="D2RJSP Runes"
+            backgroundImg={projectImgD2Rjsp}
+            projectUrl="/projects/misc/d2rjsp"
+            tech="Python, Streamlit, BeautifulSoup"
+            year="2023"
           />
           <ProjectItem
             title="Personal Website"
