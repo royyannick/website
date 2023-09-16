@@ -4,6 +4,7 @@ import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 import projectImgHeader from "../../../public/projects/d2rjsp/D2RJSP.png";
+import projectVideo from "../../../public/projects/d2rjsp/D2RJSP.mp4"
 
 const D2RJSP = () => {
     return (
@@ -32,6 +33,11 @@ const D2RJSP = () => {
                         What Runes are in demand, what is selling at what time.
                         The objective is to then use such insight to maximize my flash farming during the first hours of a ladder reset. (#TotalNerd)
                     </p>
+                    <div>
+                        <video>
+                            <source src={projectVideo} type="video/mp4" />
+                        </video>
+                    </div>
                     <Link href=".">
                         <a>
                             <button className="px-8 py-2 mt-4 mr-8">Code Coming Soon</button>
