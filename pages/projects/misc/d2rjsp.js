@@ -34,9 +34,7 @@ const D2RJSP = () => {
                         The objective is to then use such insight to maximize my flash farming during the first hours of a ladder reset. (#TotalNerd)
                     </p>
                     <div>
-                        <video width="750" height="500" controls>
-                            <source src={projectVideo} type="video/mp4" />
-                        </video>
+                        <iframe width="420" height="315" src="https://youtu.be/b4u6R3uE7eI"></iframe>
                     </div>
                     <Link href=".">
                         <a>
