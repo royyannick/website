@@ -2,6 +2,8 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import projectImgPlaceHolder from "../public/projects/project_placeholder_code.png";
 
+import projectImgCodingIntern from "../public/thumbnails/codingintern.png";
+import projectImgDegenIntern from "../public/thumbnails/degenintern.png";
 import projectImgD2Rjsp from "../public/thumbnails/d2rjsp.png";
 import projectImgNeurofuntrade from "../public/thumbnails/neurofuntrade.png";
 import projectImgCrytpoUI from "../public/thumbnails/cryptoui.png";
@@ -34,6 +36,20 @@ const Projects = () => {
             projectUrl="/projects/blockchain/neurofuntrade"
             tech="Blockchain, NTF, Web3"
             year="2022"
+          />
+          <ProjectItem
+            title="Coding Intern"
+            backgroundImg={projectImgCodingIntern}
+            projectUrl="/projects/misc/coding-intern"
+            tech="Python, Streamlit, OpenAI/ChatGPT, LangChain"
+            year="2023"
+          />
+          <ProjectItem
+            title="Degen Intern"
+            backgroundImg={projectImgDegenIntern}
+            projectUrl="/projects/misc/degen-intern"
+            tech="Python, Streamlit, TradingView"
+            year="2023"
           />
           <ProjectItem
             title="Crypto UI"
