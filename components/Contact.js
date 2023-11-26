@@ -65,7 +65,7 @@ const Contact = () => {
               </div>
               <p className="pt-8 text-center uppercase">Connect With Me</p>
               <div className="flex items-center justify-center gap-3 py-4 m-auto">
-                <Link href="https://www.linkedin.com/in/yannick-roy-8aa5286/">
+                <Link href="https://www.linkedin.com/in/yannick-roy-phd-8aa5286/">
                   <a>
                     <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                       <FaLinkedinIn className="duration-300 ease-in hover:scale-150" />
