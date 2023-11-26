@@ -70,4 +70,4 @@ const CodingIntern = () => {
     );
 };
 
-export default D2RJSP;
+export default CodingIntern;
