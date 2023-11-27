@@ -4,7 +4,6 @@ import Link from "next/link";
 
 import aboutImgYRMain from "../public/yroy/yr_main.jpeg";
 import aboutImgYannickRoy from "../public/yroy/yannickroy.png";
-//import aboutPdfYRCV from "../public/YannickRoy2022-CV_short_neurotech.pdf";
 
 const About = () => {
   return (
@@ -46,7 +45,7 @@ const About = () => {
               >
                 Deep Learning review paper for EEG
               </a>{" "}
-              (600+ citations).
+              (900+ citations).
             </p>
             <p className="py-2">
               As opposed to most engineers, I don&apos;t fall in love with the
@@ -76,7 +75,7 @@ const About = () => {
             </Link>
           </div>
           <div>
-            <Link href="/YannickRoy2022-CV_short_neurotech.pdf">
+            <Link href="/YannickRoy2023-CV_short_neurotech.pdf">
               <a target="_blank" rel="noopener noreferrer">
                 <button className="w-full p-5 mt-4 text-gray-100">
                   Download Resume (CV)

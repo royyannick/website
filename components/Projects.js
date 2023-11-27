@@ -40,14 +40,14 @@ const Projects = () => {
           <ProjectItem
             title="Coding Intern"
             backgroundImg={projectImgCodingIntern}
-            projectUrl="/projects/misc/coding-intern"
+            projectUrl="/projects/misc/codingintern"
             tech="Python, Streamlit, OpenAI/ChatGPT, LangChain"
             year="2023"
           />
           <ProjectItem
             title="Degen Intern"
             backgroundImg={projectImgDegenIntern}
-            projectUrl="/projects/misc/degen-intern"
+            projectUrl="/projects/misc/degenintern"
             tech="Python, Streamlit, TradingView"
             year="2023"
           />

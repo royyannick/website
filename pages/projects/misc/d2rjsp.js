@@ -36,7 +36,7 @@ const D2RJSP = () => {
                         The objective is to then use such insight to maximize my flash farming during the first hours of a ladder reset. (#TotalNerd)
                     </p>
                     <p className="py-4">
-                        <i>You're probably thinking, really? What a nerd. And you'd be right because I coded it on a Saturday evening instead of going out...</i>
+                        <i>You&apos;re probably thinking, really? What a nerd. And you&apos;d be right because I coded it on a Saturday evening instead of going out...</i>
                     </p>
                     <div align="center">
                         <iframe width="800" height="600" src="https://www.youtube.com/embed/b4u6R3uE7eI?si=YnAl29eERaZzDiUO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -66,9 +66,19 @@ const D2RJSP = () => {
                         </div>
                     </div>
                 </div>
-                <Link href="/#projects">
-                    <p className="underline cursor-pointer">Back</p>
-                </Link>
+            </div>
+            <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+                <div className="col-span-4">
+                    <iframe
+                        src="https://d2r-jsp.streamlit.app/?embed=true"
+                        height="800" width="100%" frameborder="0"
+                        className="max-w-[1240px]"
+                    ></iframe>
+                    <br />
+                    <Link href="/#projects">
+                        <p className="underline cursor-pointer gap-6">Back</p>
+                    </Link>
+                </div>
             </div>
         </div>
     );

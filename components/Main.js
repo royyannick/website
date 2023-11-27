@@ -51,7 +51,7 @@ const Main = () => {
             />
           </div>
           <div className="py-4 flex items-center justify-between sm:max-w-[60%] md:max-w-[60%] lg:max-w-[60%] sm:gap-2 lg:gap-4 m-auto">
-            <Link href="https://www.linkedin.com/in/yannick-roy-8aa5286/">
+            <Link href="https://www.linkedin.com/in/yannick-roy-phd-8aa5286/">
               <a target="_blank" rel="noopener noreferrer">
                 <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
                   <FaLinkedinIn className="duration-300 ease-in hover:scale-150" />

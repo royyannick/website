@@ -62,9 +62,19 @@ const CodingIntern = () => {
                         </div>
                     </div>
                 </div>
-                <Link href="/#projects">
-                    <p className="underline cursor-pointer">Back</p>
-                </Link>
+            </div>
+            <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+                <div className="col-span-4">
+                    <iframe
+                        src="https://coding-intern.streamlit.app/?embed=true"
+                        height="800" width="100%" frameborder="0"
+                        className="max-w-[1240px]"
+                    ></iframe>
+                    <br />
+                    <Link href="/#projects">
+                        <p className="underline cursor-pointer gap-6">Back</p>
+                    </Link>
+                </div>
             </div>
         </div>
     );
