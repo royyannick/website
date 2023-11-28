@@ -45,15 +45,15 @@ const CodingIntern = () => {
                         <div className="grid grid-cols-3 md:grid-cols-1">
                             <p className="flex items-center py-2 text-gray-600">
                                 <RiRadioButtonFill className="pr-1" />
-                                Streamlit
-                            </p>
-                            <p className="flex items-center py-2 text-gray-600">
-                                <RiRadioButtonFill className="pr-1" />
                                 LangChain
                             </p>
                             <p className="flex items-center py-2 text-gray-600">
                                 <RiRadioButtonFill className="pr-1" />
                                 ChatGPT
+                            </p>
+                            <p className="flex items-center py-2 text-gray-600">
+                                <RiRadioButtonFill className="pr-1" />
+                                Streamlit
                             </p>
                             <p className="flex items-center py-2 text-gray-600">
                                 <RiRadioButtonFill className="pr-1" />
